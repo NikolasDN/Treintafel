@@ -19,6 +19,6 @@
 - gebruik deze commando's op naar het programma te gaan en het op te starten
 
         cd /share/Git/Treintafel
-        python brug.py
+        python app.py
 - het programma stoppen doe je met Ctrl-C
 
