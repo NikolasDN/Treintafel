@@ -22,3 +22,11 @@
         python app.py
 - het programma stoppen doe je met Ctrl-C
 
+## Het programma als service installeren
+Je kan ervoor zorgen dat het programma start als de raspberry pi boot, en zichzelf opstart als het crasht. Het zou ook leuk zijn als het zichzelf heropstart als je iets in de app.py file aanpast want zo worden de aanpassingen meteen actief.
+
+        cd /share/Git/Treintafel
+        sudo cp treinenapp.service /etc/systemd/system/treinenapp.service
+        sudo systemctl start treinenapp.service
+        sudo systemctl stop treinenapp.service
+

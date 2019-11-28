@@ -1,0 +1,15 @@
+[Unit]
+Description=TreinenApp service
+After=network.target
+
+[Service]
+ExecStart=python -u app.py
+WorkingDirectory=/share/Git/Treintafel
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=pi
+KillSignal=SIGINT
+
+[Install]
+WantedBy=multi-user.target
