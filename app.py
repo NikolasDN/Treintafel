@@ -13,10 +13,11 @@ class Actie(object):
         self.naam = naam
 
 acties = []
-acties.append(Actie(0, 1, "Geel"))
-acties.append(Actie(1, 1, "Groen"))
-acties.append(Actie(2, 1, "Wit"))
-acties.append(Actie(3, 1, "Rood"))
+acties.append(Actie(0, 5, "Geel"))
+acties.append(Actie(1, 5, "Groen"))
+acties.append(Actie(2, 5, "Wit"))
+acties.append(Actie(3, 5, "Rood"))
+
 
 def exit_app():
     print("Stop brug-programma, doe alle leds uit")
