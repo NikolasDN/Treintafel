@@ -29,4 +29,5 @@ Je kan ervoor zorgen dat het programma start als de raspberry pi boot, en zichze
         sudo cp treinenapp.service /etc/systemd/system/treinenapp.service
         sudo systemctl start treinenapp.service
         sudo systemctl stop treinenapp.service
+        sudo systemctl enable treinenapp.service
 
